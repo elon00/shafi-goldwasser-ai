@@ -1,0 +1,51 @@
+{
+  "name": "shafi-goldwasser-ai-mcp",
+  "version": "1.0.0",
+  "description": "Shafi Goldwasser AI Model Context Protocol Server for Autonomous Zero-Knowledge Proofs, Probabilistic Encryption, Multi-Party Computation & Algorithmic Fairness Protocol",
+  "tools": [
+    {
+      "name": "audit_zero_knowledge_soundness",
+      "description": "Verify cryptographic completeness, soundness, and zero-knowledge indistinguishability across interactive proof systems",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "proof_system": {
+            "type": "string"
+          },
+          "soundness_error": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "proof_system"
+        ]
+      }
+    },
+    {
+      "name": "disburse_probabilistic_crypto_grant",
+      "description": "Trigger automated micro-escrow releases for secure multi-party computation circuits, cryptographic privacy research, and algorithmic fairness benchmarking",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
